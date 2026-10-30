@@ -1,0 +1,24 @@
+{
+  "name": "install_font",
+  "description": "安装指定字体文件",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "font_path": {
+        "type": "string",
+        "description": "字体文件完整路径"
+      }
+    },
+    "required": [
+      "font_path"
+    ]
+  },
+  "outputSchema": {
+    "type": "object",
+    "properties": {
+      "installed": {
+        "type": "boolean"
+      }
+    }
+  }
+}

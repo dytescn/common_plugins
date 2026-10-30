@@ -1,0 +1,7 @@
+{
+  "tools": [
+    "system_fonts.json",
+    "install_font.json",
+    "export_font.json"
+  ]
+}

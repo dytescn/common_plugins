@@ -1,0 +1,11 @@
+[package]
+name = "sysfonts"
+version = "0.1.4"
+edition = "2024"
+publish = ["crates-io"]
+
+[dependencies]
+font-kit = "0.14.3"
+
+[lib]
+crate-type = ["cdylib", "rlib"]

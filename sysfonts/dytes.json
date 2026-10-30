@@ -1,0 +1,29 @@
+{
+  "name": "sysfonts",
+  "uuid": "ea8e80c2-3d32-4fb4-a5d6-fab704536331",
+  "version": "0.1.6",
+  "description": "system fonts plugin",
+  "keywords": [
+    "fonts",
+    "plugin"
+  ],
+  "author": "funxdata",
+  "type": "design_plugins",
+  "license": "MIT",
+  "exports": {
+    "./target/release/sysfonts.dll": "sysfonts.dll",
+    "./mcp.json": "mcp.json",
+    "./mcp_out/system_fonts.json": "system_fonts.json",
+    "./mcp_out/install_font.json": "install_font.json",
+    "./mcp_out/export_font.json": "export_font.json"
+  },
+  "platform-exports": {
+    "windows": {
+      "./target/release/sysfonts.dll": "sysfonts.dll",
+      "./mcp.json": "mcp.json",
+      "./mcp_out/system_fonts.json": "system_fonts.json",
+      "./mcp_out/install_font.json": "install_font.json",
+      "./mcp_out/export_font.json": "export_font.json"
+    }
+  }
+}

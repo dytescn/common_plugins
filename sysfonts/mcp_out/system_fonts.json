@@ -1,0 +1,18 @@
+{
+  "name": "system_fonts",
+  "description": "列出当前系统已安装的字体",
+  "inputSchema": {
+    "type": "object"
+  },
+  "outputSchema": {
+    "type": "object",
+    "properties": {
+      "fonts": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
